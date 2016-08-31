@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:orientation="vertical" android:background="#1253A2" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Download" android:onClick="showSuccessToast" android:layout_weight="1" android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:id="@+id/button"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Warning" android:onClick="showWarningToast" android:layout_weight="1" android:layout_centerHorizontal="true" android:id="@+id/button2" android:layout_below="@+id/button"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Error" android:onClick="showErrorToast" android:layout_weight="1" android:layout_centerHorizontal="true" android:id="@+id/button3" android:layout_below="@+id/button"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Info" android:onClick="showInfoToast" android:layout_weight="1" android:layout_centerHorizontal="true" android:id="@+id/button4" android:layout_below="@+id/button"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Default" android:onClick="showDefaultToast" android:layout_weight="1" android:layout_centerHorizontal="true" android:id="@+id/button5" android:layout_below="@+id/button"/>
+
+</LinearLayout>
+
+</LinearLayout>
